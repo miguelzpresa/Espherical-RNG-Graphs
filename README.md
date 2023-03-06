@@ -36,9 +36,6 @@ ____
 # Project_Overview
 This project aims to develop numerical & statistical insights about the hidden geometric properties that exists in the presence of graphs generated on the surface of a sphere. 
 
-![Alt text](https://github.com/JZRodriguez/fingerprints_project/blob/main/Fingerprints%20patterns%202.jpg 'Fingerprints')
-
-Freepik Company. (2010-2022). Detailed fingerprint icons. Retrieved from [Link page](https://www.freepik.es/vector-premium/iconos-detallados-huellas-dactilares-escaner-policia-pulgar-simbolos-vectoriales-identidad-persona-seguridad-id-pictogramos-dedo-identidad-tecnologia-biometric_4866225.htm)
 
 
 # Introduction
