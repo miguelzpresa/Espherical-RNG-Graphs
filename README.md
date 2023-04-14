@@ -72,45 +72,45 @@ The data was obtained through a graph generation simulation.
 The dataset contains information on 1000 different graphs.  
 
 ### Dataset Atributes
-grafo.id: Identificador único del grafo (int).
-grafo.lista_nodos: Lista de identificadores únicos de los nodos que conforman el grafo (list).
-grafo.lista_aristas: Lista de identificadores únicos de las aristas que conforman el grafo (list).
-grafo.estadisticas.num_nodos: Número de nodos que conforman el grafo (int).
-grafo.estadisticas.num_aristas: Número de aristas que conforman el grafo (int).
-grafo.estadisticas.grado_maximo: Grado máximo de los nodos del grafo (int).
-grafo.estadisticas.grado_minimo: Grado mínimo de los nodos del grafo (int).
-grafo.estadisticas.grado_promedio: Grado promedio de los nodos del grafo (float).
-grafo.estadisticas.densidad: Densidad del grafo (float).
-nodos.id: Identificador único del nodo (int).
-nodos.coordenada_x: Coordenada en el eje X del nodo (float).
-nodos.coordenada_y: Coordenada en el eje Y del nodo (float).
-aristas.id: Identificador único de la arista (int).
-aristas.nodo_inicial: Identificador único del nodo inicial de la arista (int).
-aristas.nodo_final: Identificador único del nodo final de la arista (int).
-aristas.distancia: Distancia entre los nodos inicial y final de la arista (float).
-aristas.angulo_1: Ángulo de la arista respecto al eje X (float o null).
-aristas.angulo_2: Ángulo de la arista respecto al eje Y (float o null).
+grafo.id: Identificador único del grafo (int).  
+grafo.lista_nodos: Lista de identificadores únicos de los nodos que conforman el grafo (list).  
+grafo.lista_aristas: Lista de identificadores únicos de las aristas que conforman el grafo (list).  
+grafo.estadisticas.num_nodos: Número de nodos que conforman el grafo (int).  
+grafo.estadisticas.num_aristas: Número de aristas que conforman el grafo (int).  
+grafo.estadisticas.grado_maximo: Grado máximo de los nodos del grafo (int).  
+grafo.estadisticas.grado_minimo: Grado mínimo de los nodos del grafo (int).  
+grafo.estadisticas.grado_promedio: Grado promedio de los nodos del grafo (float).  
+grafo.estadisticas.densidad: Densidad del grafo (float).  
+nodos.id: Identificador único del nodo (int).  
+nodos.coordenada_x: Coordenada en el eje X del nodo (float).  
+nodos.coordenada_y: Coordenada en el eje Y del nodo (float).  
+aristas.id: Identificador único de la arista (int).  
+aristas.nodo_inicial: Identificador único del nodo inicial de la arista (int).    
+aristas.nodo_final: Identificador único del nodo final de la arista (int).  
+aristas.distancia: Distancia entre los nodos inicial y final de la arista (float).  
+aristas.angulo_1: Ángulo de la arista respecto al eje X (float o null).  
+aristas.angulo_2: Ángulo de la arista respecto al eje Y (float o null).  
 
 
 ### Tipo de datos
-grafo.id: int
-grafo.lista_nodos: list
-grafo.lista_aristas: list
-grafo.estadisticas.num_nodos: int
-grafo.estadisticas.num_aristas: int
-grafo.estadisticas.grado_maximo: int
-grafo.estadisticas.grado_minimo: int
-grafo.estadisticas.grado_promedio: float
-grafo.estadisticas.densidad: float
-nodos.id: int
-nodos.coordenada_x: float
-nodos.coordenada_y: float
-aristas.id: int
-aristas.nodo_inicial: int
-aristas.nodo_final: int
-aristas.distancia: float
-aristas.angulo_1: float o null
-aristas.angulo_2: float o null  
+grafo.id: int  
+grafo.lista_nodos: list  
+grafo.lista_aristas: list  
+grafo.estadisticas.num_nodos: int  
+grafo.estadisticas.num_aristas: int  
+grafo.estadisticas.grado_maximo: int  
+grafo.estadisticas.grado_minimo: int  
+grafo.estadisticas.grado_promedio: float  
+grafo.estadisticas.densidad: float  
+nodos.id: int  
+nodos.coordenada_x: float  
+nodos.coordenada_y: float  
+aristas.id: int  
+aristas.nodo_inicial: int  
+aristas.nodo_final: int  
+aristas.distancia: float  
+aristas.angulo_1: float o null  
+aristas.angulo_2: float o null    
 ### NUll values
 Los valores faltantes en el dataset se indicarán con el valor NaN para las columnas numéricas
 
