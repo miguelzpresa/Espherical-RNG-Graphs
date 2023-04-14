@@ -114,6 +114,84 @@ aristas.angulo_2: float o null
 ### NUll values
 Los valores faltantes en el dataset se indicarán con el valor NaN para las columnas numéricas
 
+### Example(json format)  
+{  
+"grafo": {  
+"id": 1,  
+"lista_nodos": [1, 2, 3, 4, 5],  
+"lista_aristas": [1, 2, 3, 4],  
+"estadisticas": {  
+"num_nodos": 5,  
+"num_aristas": 4,  
+"grado_maximo": 2,  
+"grado_minimo": 1,  
+"grado_promedio": 1.6,  
+"densidad": 0.4  
+}  
+},  
+"nodos": [  
+{   
+"id": 1,  
+"coordenada_x": 0.0,  
+"coordenada_y": 1.0  
+},  
+{  
+"id": 2,  
+"coordenada_x": 1.0,  
+"coordenada_y": 0.0  
+},  
+{  
+"id": 3,  
+"coordenada_x": -1.0,  
+"coordenada_y": 0.0  
+},  
+{  
+"id": 4,  
+"coordenada_x": 0.0,  
+"coordenada_y": -1.0  
+},  
+{  
+"id": 5,  
+"coordenada_x": 0.5,  
+"coordenada_y": 0.5  
+}  
+],  
+"aristas": [  
+{  
+"id": 1,  
+"nodo_inicial": 1,  
+"nodo_final": 2,  
+"distancia": 1.41421356,  
+"angulo_1": null,  
+"angulo_2": null  
+},  
+{  
+"id": 2,  
+"nodo_inicial": 1,  
+"nodo_final": 3,  
+"distancia": 1.41421356,  
+"angulo_1": null,  
+"angulo_2": null  
+},  
+{  
+"id": 3,  
+"nodo_inicial": 1,  
+"nodo_final": 5,  
+"distancia": 1.11803399,  
+"angulo_1": null,  
+"angulo_2": null  
+},  
+{  
+"id": 4,  
+"nodo_inicial": 2,  
+"nodo_final": 3,  
+"distancia": 2.0,  
+"angulo_1": null,  
+"angulo_2": null  
+}  
+]  
+}  
+
 
 
 
