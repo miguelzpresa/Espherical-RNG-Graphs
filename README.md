@@ -39,7 +39,7 @@ This project aims to develop numerical & statistical insights about the hidden g
 
 
 # Introduction
-
+This project aims to understand, explore, and characterize the different numerical, geometric, and algebraic properties and relationships that exist when computationally constructing a family of RNG graphs on the surface of a sphere. As the first step in a series of reports, we analyzed the data from the results obtained by Dr. Daniele Colosi, who designed and generated a series of computational experiments where $10^5$ RNG graphs were generated. The results are presented in the paper titled "Relative Neighbourhood Graphs on the sphere", which provides the record of the relative frequencies representing the probability that the length of an edge generated in an RNG graph falls within a range of values (it is a range and not specific values because it is working in the continuous and in continuous probability, intervals are used). These distances are then grouped into specific intervals within a range of 0 to pi, divided into 400 equal-sized intervals. The results indicated a non-uniform distribution of edges along the sphere and a relationship between the geodesic distance and the relative frequency of edge occurrence. In general, this study (report) presents the results obtained from the descriptive statistical analysis conducted on the geometric structure of the graphs on the surface of a sphere when they are randomly generated with a uniform distribution of points along with a criterion that we will explain later, which determines whether there is a connection link between two nodes.
 
 
 ______
