@@ -3,7 +3,6 @@ RNGs
 ![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/3130c8c2-712e-498b-9f96-37f920dd856d)
 
 Numerical & Statistical Analysis about RNGs(Relative Neighbor Graphs) living on a spherical surface
-"Final Project",UNAM (https://www.unam.mx/) -TICs-Statistics 2023-1 class,taught by Dr. María del Río Franco 
 
 
 ____
@@ -45,13 +44,43 @@ This project aims to understand, explore, and characterize the different numeric
 
 ______
 # Justification
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/a4f0262c-41d0-4af1-935e-4de3b80ce7c3)
+
 
 
 
 # Constraints
 
-#  Goals
+#  General Objective
+---
+Modeling, Studying, and Understanding the Statistical and Geometric Properties of RNGs on the Spherical Surface
 
+# Specific Objectives
+---
+
+Generate 10^5 graph ensembles, each with specific properties (point distribution and number of points).
+
+Conduct experiments to analyze the behavior of geometric properties under varying initial parameters.
+
+Propose a model that generates random graphs approximating an RNG using statistical analysis results in the form of heuristics (link number distribution and link distance value distribution).
+
+Develop a program to automatically perturb and analyze node positions to map the available area for a node to be located on average without modifying the RNG graph structure: proposal of a new entropy definition for RNG graphs.
+
+Draft the final results of the sensitivity analyses.
+
+### Additional Notes:
+---
+
+The term "RNG" stands for "Relative Network Graph."
+
+
+The development of a model for generating random graphs that approximate RNGs is a key objective, as it will allow for further analysis and exploration of these networks.
+
+The perturbation and analysis of node positions will provide insights into the available area for node placement and the overall structure of RNGs.
+
+The proposal of a new entropy definition for RNG graphs is an innovative contribution to the field of network science.
+
+The final results of the sensitivity analyses will provide valuable information about the impact of different parameters on the behavior of RNGs.
 
 
 ____
@@ -200,6 +229,8 @@ Los valores faltantes en el dataset se indicarán con el valor NaN para las colu
 ---
 # Methodology
 
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/fc4614d9-29d0-4160-ba81-da1317c03cb6)
+
 
 
 
@@ -218,10 +249,15 @@ ___
 * Jupyter lab     3.2.9
 ___
 # Results
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/fe0e1289-71e0-42aa-a97b-c2330dc66783)
 
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/8c1ad89e-eb9a-4c87-8840-55b57ea416a0)
+
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/4a34926e-6796-4b52-96bb-b328a65ed46a)
 
 ____
 # Conclusions
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/2386cdf9-d003-4e63-9a41-7d845e030755)
 
 
 
