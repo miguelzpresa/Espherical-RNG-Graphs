@@ -1,5 +1,6 @@
 RNGs
 ==============================
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/3130c8c2-712e-498b-9f96-37f920dd856d)
 
 Numerical & Statistical Analysis about RNGs(Relative Neighbor Graphs) living on a spherical surface
 "Final Project",UNAM (https://www.unam.mx/) -TICs-Statistics 2023-1 class,taught by Dr. María del Río Franco 
