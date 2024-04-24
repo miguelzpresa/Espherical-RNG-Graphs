@@ -8,7 +8,6 @@ Numerical & Statistical Analysis about RNGs(Relative Neighbor Graphs) living on 
 ____
 ## Table of Contents
 
-* [License](#License)
 * [Project Overview](#Project_Overview)
 * [Introduction](#Introduction)
 * [Justification](#Justification)
@@ -22,24 +21,8 @@ ____
 * [References](#References)
 
 
-____
-# License
-Copyright © 2023 <mikezpresa@gmail.com>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-____
-# Project_Overview
-This project aims to develop numerical & statistical insights about the hidden geometric properties that exists in the presence of graphs generated on the surface of a sphere. 
-
-
-
 # Introduction
-This project aims to understand, explore, and characterize the different numerical, geometric, and algebraic properties and relationships that exist when computationally constructing a family of RNG graphs on the surface of a sphere. As the first step in a series of reports, we analyzed the data from the results obtained by Dr. Daniele Colosi, who designed and generated a series of computational experiments where $10^5$ RNG graphs were generated. The results are presented in the paper titled "Relative Neighbourhood Graphs on the sphere", which provides the record of the relative frequencies representing the probability that the length of an edge generated in an RNG graph falls within a range of values (it is a range and not specific values because it is working in the continuous and in continuous probability, intervals are used). These distances are then grouped into specific intervals within a range of 0 to pi, divided into 400 equal-sized intervals. The results indicated a non-uniform distribution of edges along the sphere and a relationship between the geodesic distance and the relative frequency of edge occurrence. In general, this study (report) presents the results obtained from the descriptive statistical analysis conducted on the geometric structure of the graphs on the surface of a sphere when they are randomly generated with a uniform distribution of points along with a criterion that we will explain later, which determines whether there is a connection link between two nodes.
+This project aims to understand, explore, and characterize the different numerical, geometric, and algebraic properties and relationships that exist when computationally constructing a family of RNG graphs on the surface of a sphere.
 
 
 ______
@@ -92,6 +75,103 @@ ____
 
 ______
 # Dataset Specifications
+
+---
+# Methodology
+
+
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/fc4614d9-29d0-4160-ba81-da1317c03cb6)
+
+As the first step in a series of reports, we analyzed the data from the results obtained generated  ,the results are presented in the paper titled "Relative Neighbourhood Graphs on the sphere", which provides the record of the relative frequencies representing the probability that the length of an edge generated in an RNG graph falls within a range of values (it is a range and not specific values because it is working in the continuous and in continuous probability, intervals are used).   
+
+These distances are then grouped into specific intervals within a range of 0 to pi, divided into 400 equal-sized intervals. The results indicated a non-uniform distribution of edges along the sphere and a relationship between the geodesic distance and the relative frequency of edge occurrence. In general, this study (report) presents the results obtained from the descriptive statistical analysis conducted on the geometric structure of the graphs on the surface of a sphere when they are randomly generated with a uniform distribution of points along with a criterion that we will explain later, which determines whether there is a connection link between two nodes
+
+
+
+
+
+
+
+___
+
+# Packages<br>
+* [Pandas    version 1.4.1](https://pandas.pydata.org/)
+* [Matplotlib version 3.2.2](https://matplotlib.org/)
+* [Numpy      version 1.21.5](https://numpy.org/)  
+* [Numba_____version_0.58.1](https://numba.org)
+* [Scipy_____version_1.11.4](https://scipy.org)
+* itertools
+* time
+* copy
+* Jupyter lab     3.2.9
+___
+# Results
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/fe0e1289-71e0-42aa-a97b-c2330dc66783)
+
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/8c1ad89e-eb9a-4c87-8840-55b57ea416a0)
+
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/4a34926e-6796-4b52-96bb-b328a65ed46a)
+
+____
+# Conclusions
+![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/2386cdf9-d003-4e63-9a41-7d845e030755)
+
+
+
+___
+# References
+
+
+Project Organization
+------------
+
+    ├── LICENSE
+    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── README.md          <- The top-level README for developers using this project.
+    ├── data
+    │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   └── raw            <- The original, immutable data dump.
+    │
+    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    │
+    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    │
+    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    │                         the creator's initials, and a short `-` delimited description, e.g.
+    │                         `1.0-jqp-initial-data-exploration`.
+    │
+    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    │
+    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    │   └── figures        <- Generated graphics and figures to be used in reporting
+    │
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         generated with `pip freeze > requirements.txt`
+    │
+    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── src                <- Source code for use in this project.
+    │   ├── __init__.py    <- Makes src a Python module
+    │   │
+    │   ├── data           <- Scripts to download or generate data
+    │   │   └── make_dataset.py
+    │   │
+    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   │   └── build_features.py
+    │   │
+    │   ├── models         <- Scripts to train models and then use trained models to make
+    │   │   │                 predictions
+    │   │   ├── predict_model.py
+    │   │   └── train_model.py
+    │   │
+    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │       └── visualize.py
+    │
+    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+
+
+--------
 ### Overview
 This dataset contains information about different graphs. For each graph, its unique identifier, list of nodes and list of edges, as well as descriptive statistics and details about each node and edge, are recorded.
 
@@ -226,93 +306,4 @@ Los valores faltantes en el dataset se indicarán con el valor NaN para las colu
 
 
 
----
-# Methodology
-
-![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/fc4614d9-29d0-4160-ba81-da1317c03cb6)
-
-
-
-
-
-
-
-
-
-___
-
-# Packages<br>
-* [Pandas    version 1.4.1](https://pandas.pydata.org/)
-* [Matplotlib version 3.2.2](https://matplotlib.org/)
-* [Numpy      version 1.21.5](https://numpy.org/)  
-* 
-* Jupyter lab     3.2.9
-___
-# Results
-![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/fe0e1289-71e0-42aa-a97b-c2330dc66783)
-
-![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/8c1ad89e-eb9a-4c87-8840-55b57ea416a0)
-
-![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/4a34926e-6796-4b52-96bb-b328a65ed46a)
-
-____
-# Conclusions
-![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/2386cdf9-d003-4e63-9a41-7d845e030755)
-
-
-
-___
-# References
-
-
-Project Organization
-------------
-
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
-
---------
 
