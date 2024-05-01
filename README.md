@@ -36,18 +36,19 @@ ______
 
 #  General Objective
 ---
-Modeling, Studying, and Understanding the Statistical and Geometric Properties of RNGs on the Spherical Surface
+Estudiar grafos de vecindad relativa (RNG, Relative Neighborhood Graphs) sobre la superficie de la esfera unitaria y proponer modelos aproximados de RNG por medio de gráficas random.
 
 # Specific Objectives
 ---
 
-Generate 10^5 graph ensembles, each with specific properties (point distribution and number of points).
+1.1 Extraer  las propiedades  estadísticas relevantes de las gráficas RNG  
 
-Conduct experiments to analyze the behavior of geometric properties under varying initial parameters.
 
-Propose a model that generates random graphs approximating an RNG using statistical analysis results in the form of heuristics (link number distribution and link distance value distribution).
+1.2 Relacionar las propiedades de las RNG con la superficie del grafo.
 
-Develop a program to automatically perturb and analyze node positions to map the available area for a node to be located on average without modifying the RNG graph structure: proposal of a new entropy definition for RNG graphs.
+1.3 Implementar una definición de entropía como área dentro de la cual puede moverse los vértices de las gráficas RNG sin afectar su matriz de adyacencia
+
+1.4  Proponer un  modelo que genere grafos random que aproxime una RNG utilizando nuestros resultados del análisis estadístico en forma de heurísticas (distribución de  número de links y  distribución  del valor de  distancia de links).
 
 Draft the final results of the sensitivity analyses.
 
@@ -65,13 +66,6 @@ The proposal of a new entropy definition for RNG graphs is an innovative contrib
 
 The final results of the sensitivity analyses will provide valuable information about the impact of different parameters on the behavior of RNGs.
 
-
-____
-# Hipothesis
-*
-*
-*
-*
 
 ______
 # Dataset Specifications
