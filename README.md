@@ -31,9 +31,6 @@ ______
 
 
 
-
-# Constraints
-
 #  General Objective
 ---
 Estudiar grafos de vecindad relativa (RNG, Relative Neighborhood Graphs) sobre la superficie de la esfera unitaria y proponer modelos aproximados de RNG por medio de gráficas random.
