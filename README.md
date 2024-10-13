@@ -10,12 +10,12 @@ ____
 
 * [Project Overview](https://github.com/miguelzpresa/Espherical-RNG-Graphs/files/15343433/Poster_RNG-11.pdf)
 * [Introduction](#Introduction)
+* [Thesis](protocolo2024.pdf)
 
 * [Libreries](#Libreries)
 * [Packages](#Packages)
-* [Results](#Results)
-* [Conclusions](#Conclusions)
-* [References](#References)
+
+
 
 
 [Poster_RNG-11.pdf](https://github.com/miguelzpresa/Espherical-RNG-Graphs/files/15343433/Poster_RNG-11.pdf)
@@ -33,13 +33,11 @@ ____
 
 
 
-
-
 # Introduction
 This project aims to understand, explore, and characterize the different numerical, geometric, and algebraic properties and relationships that exist when computationally constructing a family of RNG graphs on the surface of a sphere.
 
-
-
+# Thesis  
+[Thesis](protocolo2024.pdf)
 
 
 ___
