@@ -8,12 +8,9 @@ Numerical & Statistical Analysis about RNGs(Relative Neighbor Graphs) living on 
 ____
 ## Table of Contents
 
-* [Project Overview](#Project_Overview)
+* [Project Overview](https://github.com/miguelzpresa/Espherical-RNG-Graphs/files/15343433/Poster_RNG-11.pdf)
 * [Introduction](#Introduction)
-* [Justification](#Justification)
-* [Goals](#Goals)
-* [Hypothesis](#Hypothesis)
-* [Metodology](#Metodology)
+
 * [Libreries](#Libreries)
 * [Packages](#Packages)
 * [Results](#Results)
@@ -42,61 +39,6 @@ ____
 This project aims to understand, explore, and characterize the different numerical, geometric, and algebraic properties and relationships that exist when computationally constructing a family of RNG graphs on the surface of a sphere.
 
 
-______
-# Justification
-![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/a4f0262c-41d0-4af1-935e-4de3b80ce7c3)
-
-
-
-#  General Objective
----
-Estudiar grafos de vecindad relativa (RNG, Relative Neighborhood Graphs) sobre la superficie de la esfera unitaria y proponer modelos aproximados de RNG por medio de gráficas random.
-
-# Specific Objectives
----
-
-1.1 Extraer  las propiedades  estadísticas relevantes de las gráficas RNG  
-
-
-1.2 Relacionar las propiedades de las RNG con la superficie del grafo.
-
-1.3 Implementar una definición de entropía como área dentro de la cual puede moverse los vértices de las gráficas RNG sin afectar su matriz de adyacencia
-
-1.4  Proponer un  modelo que genere grafos random que aproxime una RNG utilizando nuestros resultados del análisis estadístico en forma de heurísticas (distribución de  número de links y  distribución  del valor de  distancia de links).
-
-Draft the final results of the sensitivity analyses.
-
-### Additional Notes:
----
-
-The term "RNG" stands for "Relative Network Graph."
-
-
-The development of a model for generating random graphs that approximate RNGs is a key objective, as it will allow for further analysis and exploration of these networks.
-
-The perturbation and analysis of node positions will provide insights into the available area for node placement and the overall structure of RNGs.
-
-The proposal of a new entropy definition for RNG graphs is an innovative contribution to the field of network science.
-
-The final results of the sensitivity analyses will provide valuable information about the impact of different parameters on the behavior of RNGs.
-
-
-______
-# Dataset Specifications
-
----
-# Methodology
-
-
-![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/fc4614d9-29d0-4160-ba81-da1317c03cb6)
-
-As the first step in a series of reports, we analyzed the data from the results obtained generated  ,the results are presented in the paper titled "Relative Neighbourhood Graphs on the sphere", which provides the record of the relative frequencies representing the probability that the length of an edge generated in an RNG graph falls within a range of values (it is a range and not specific values because it is working in the continuous and in continuous probability, intervals are used).   
-
-These distances are then grouped into specific intervals within a range of 0 to pi, divided into 400 equal-sized intervals. The results indicated a non-uniform distribution of edges along the sphere and a relationship between the geodesic distance and the relative frequency of edge occurrence. In general, this study (report) presents the results obtained from the descriptive statistical analysis conducted on the geometric structure of the graphs on the surface of a sphere when they are randomly generated with a uniform distribution of points along with a criterion that we will explain later, which determines whether there is a connection link between two nodes
-
-
-
-
 
 
 
@@ -120,14 +62,6 @@ ___
 
 ![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/4a34926e-6796-4b52-96bb-b328a65ed46a)
 
-____
-# Conclusions
-![image](https://github.com/miguelzpresa/Espherical-RNG-Graphs/assets/49998408/2386cdf9-d003-4e63-9a41-7d845e030755)
-
-
-
-___
-# References
 
 
 Project Organization
