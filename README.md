@@ -8,14 +8,11 @@ Numerical & Statistical Analysis about RNGs(Relative Neighbor Graphs) living on 
 ____
 ## Table of Contents
 
-* [Project Overview](https://github.com/miguelzpresa/Espherical-RNG-Graphs/files/15343433/Poster_RNG-11.pdf)
-* [Introduction](#Introduction)
+* [Project Overview---Poster](https://github.com/miguelzpresa/Espherical-RNG-Graphs/files/15343433/Poster_RNG-11.pdf)
+* [Thesis](#protocolo2024.pdf)
 
 * [Libreries](#Libreries)
 * [Packages](#Packages)
-* [Results](#Results)
-* [Conclusions](#Conclusions)
-* [References](#References)
 
 
 [Poster_RNG-11.pdf](https://github.com/miguelzpresa/Espherical-RNG-Graphs/files/15343433/Poster_RNG-11.pdf)
